@@ -1,0 +1,31 @@
+# Site settings
+title: overskylab journal
+email: ""
+description: > # this means to ignore newlines until "baseurl:"
+  DevOps, Stacker, Cepher
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: ""
+github_username: overskylab
+
+# Build settings
+markdown: kramdown
+
+highlighter: pygments
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
+# Gems
+gems: [jekyll-paginate]
+
