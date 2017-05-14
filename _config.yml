@@ -11,7 +11,8 @@ github_username: overskylab
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+# highlighter: pygments
+highlighter: rouge
 
 # Pagination
 paginate: 15
@@ -28,4 +29,3 @@ collections:
 
 # Gems
 gems: [jekyll-paginate]
-
