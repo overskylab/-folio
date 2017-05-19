@@ -30,13 +30,13 @@ Hi friends,
 ขั้นตอน
 1. ติดตั้ง tmux {% highlight bash %} brew install tmux {% endhighlight %}
 2. เริ่มสร้าง Session
-{% highlight bash %} tmux -CC {% endhighlight %}
+  {% highlight bash %} tmux -CC {% endhighlight %}
 3. ใช้งาน/ควบคุม iTerm2 {% highlight bash %}
-cmd + t: เปิด tab ใหม่ สามารถเลือกได้ว่าเป็น tmux หรือ bash ธรรมดา
-cmd + n: เปิดหน้าต่างใหม่
-cmd + d: แบ่งหน้าต่าง Session ในแนวนอน
-cmd + shift + d: แบ่งหน้าต่าง Session ในแนวตั้ง
-{% endhighlight %}
+  cmd + t: เปิด tab ใหม่ สามารถเลือกได้ว่าเป็น tmux หรือ bash ธรรมดา
+  cmd + n: เปิดหน้าต่างใหม่
+  cmd + d: แบ่งหน้าต่าง Session ในแนวนอน
+  cmd + shift + d: แบ่งหน้าต่าง Session ในแนวตั้ง
+  {% endhighlight %}
 4. ปิด tab หรือหน้าต่างจะมีให้เลือก Hide เพื่อเก็บไว้กลับมาใช้งานใหม่ หรือ Kill เพื่อปิดการทำงานของหน้านั้น
 5. เมื่อกลับมาใช้งานใหม่ให้ใช้คำสั่ง {% highlight bash %}tmux -CC attach{% endhighlight %}
 
