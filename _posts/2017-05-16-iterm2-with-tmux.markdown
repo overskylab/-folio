@@ -28,16 +28,10 @@ Hi friends,
 
 
 ขั้นตอน
-1. ติดตั้ง tmux
-{% highlight bash %}
-brew install tmux
-{% endhighlight %}
+1. ติดตั้ง tmux {% highlight bash %} brew install tmux {% endhighlight %}
 2. เริ่มสร้าง Session
-{% highlight bash %}
-tmux -CC
-{% endhighlight %}
-3. ใช้งาน/ควบคุม iTerm2
-{% highlight bash %}
+{% highlight bash %} tmux -CC {% endhighlight %}
+3. ใช้งาน/ควบคุม iTerm2 {% highlight bash %}
 cmd + t: เปิด tab ใหม่ สามารถเลือกได้ว่าเป็น tmux หรือ bash ธรรมดา
 cmd + n: เปิดหน้าต่างใหม่
 cmd + d: แบ่งหน้าต่าง Session ในแนวนอน
